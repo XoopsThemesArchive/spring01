@@ -1,0 +1,130 @@
+@charset 'EUC-JP';
+
+body {background-color: #fff; padding: 0; text-align: center; font-size: 95%; text-align: center;}
+.contents {width: 95%; margin: auto; padding: 0; text-align: left; position: relative; border: 2px solid #993;}
+
+table {width: 100%; margin: 0px; padding: 0px;}
+table td {padding: 0px; border-width: 0px; vertical-align: top;}
+th {background-color: #993; color: #fff; padding : 2px; vertical-align : middle; text-align: center; font-weight: normal;}
+
+a {color: #000; text-decoration: none; background-color: transparent;}
+a:hover {color: #660;}
+th a {color: #fff;}
+th a:hover {color: #000;}
+.headerbar a {color: #fff;}
+.headerbar a:hover {color: #000;}
+.head a {color: #fff;}
+.head a:hover {color: #000;}
+.foot a {color: #fff;}
+.foot a:hover {color: #000;}
+address a {color: #660; font-size: 85%; font-style: normal;}
+address a:hover {color: #000; font-size: 85%; font-style: normal;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul {margin: 0; padding: 2px 5px; text-align: left;}
+li {list-style: square inside; color: #000;}
+
+input {color:#000; border:1px solid #993; margin: 1px; padding-top:3px; background-color: #fff;}
+textarea {color:#000; border:1px solid #993; margin: 1px; padding-top:3px; background-color: #fff;}
+
+.item {background-color: #fff; margin: 0; border: 2px solid #cc6;}
+.itemHead {margin: 0; padding: 5px 10px; font-weight: bold;}
+.itemInfo {text-align: right; padding: 3px 10px 2px; border-top: 2px dotted #cc6;}
+.itemPoster {}
+.itemPostDate {}
+.itemStats {}
+.itemBody {padding: 2px 15px;}
+.itemText {line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {margin: 0; padding: 2px 10px; line-height: 120%; text-align: right;}
+.itemAdminLink {}
+.itemPermaLink {}
+
+.header {}
+.header img {vertical-align: bottom;}
+.headerbanner01 {width: 230px; background-color: #fff;}
+.headerlogo {background-color: #fff; text-align: center;}
+.headerbanner02 {width: 220px; background-color: #fff;}
+
+.headerbar {color: #fff; background: #993 url(./image/bg_bar01.jpg); padding-right: 10px; text-align: right;}
+.headerbar input {vertical-align: middle;}
+
+.main {}
+
+.leftcolumn {width: 180px; margin: 0; padding: 20px 7px;}
+.leftcolumn th {background-color: #993; color: #fff; vertical-align: middle;}
+.leftcolumn div.blockTitle {background-color: #cc6; margin: 0; padding: 5px; text-align: center; font-weight: bold; vertical-align: bottom;}
+.leftcolumn div.blockContent {margin: 0; padding: 7px 10px 20px; line-height: 120%;}
+
+.centercolumn {padding: 20px; border-left: 2px dotted #993; border-right: 2px dotted #993;}
+
+.center {}
+.centercolumn div.blockTitle img {vertical-align: middle;}
+
+.centerCcolumn {}
+.centerCcolumn div.blockTitle {background-color: #fff;margin: 0; padding: 5px; border-top: 2px solid #cc6; border-right: 2px solid #cc6; border-left: 2px solid #cc6; border-bottom: 2px dotted #cc6; text-align: center; font-weight: bold;}
+.centerCcolumn div.blockContent {background-color: #fff; margin-bottom: 20px; padding: 10px; border-right: 2px solid #cc6; border-left: 2px solid #cc6; border-bottom: 2px solid #cc6;}
+.centerCcolumn div.blockTitle img {vertical-align: middle;}
+
+.centerLcolumn {width: 48%; float: left; text-align: left;}
+.centerLcolumn div.blockTitle {background-color: #fff;margin: 0; padding: 5px; border-top: 2px solid #cc6; border-right: 2px solid #cc6; border-left: 2px solid #cc6; border-bottom: 2px dotted #cc6; text-align: center; font-weight: bold;}
+.centerLcolumn div.blockContent {background-color: #fff; margin-bottom: 20px; padding: 10px; border-right: 2px solid #cc6; border-left: 2px solid #cc6; border-bottom: 2px solid #cc6;}
+
+.centerRcolumn {width: 48%; float: right; text-align: left;}
+.centerRcolumn div.blockTitle {background-color: #fff; margin: 0; padding: 5px; border-top: 2px solid #cc6; border-right: 2px solid #cc6; border-left: 2px solid #cc6; border-bottom: 2px dotted #cc6; text-align: center; font-weight: bold;}
+.centerRcolumn div.blockContent { background-color: #fff; margin-bottom: 20px; padding: 10px; border-right: 2px solid #cc6; border-left: 2px solid #cc6; border-bottom: 2px solid #cc6;}
+
+.content {clear: both; text-align: left;}
+.content div.blockTitle {color: #000; padding: 5px; font-size: 150%; font-weight: bold;}
+
+.rightcolumn {width: 180px; margin: 0; padding: 20px 7px;}
+.rightcolumn th {background-color: #993; color: #fff; vertical-align: middle;}
+.rightcolumn div.blockTitle {background-color: #cc6; margin: 0; padding: 5px; text-align: center; font-weight: bold; vertical-align: bottom;}
+.rightcolumn div.blockContent {margin: 0; padding: 7px 10px 20px; line-height: 120%;}
+
+.copyright {width: 95%; margin: auto; padding: 5px 0px; text-align: center;}
+
+td#mainmenu a {display: block; border-bottom: 1px dotted #cc6;}
+td#mainmenu a:hover {color: #660;}
+td#mainmenu a.menuTop {}
+td#mainmenu a.menuMain {}
+td#mainmenu a.menuSub {padding-left: 10px;}
+
+td#usermenu a {display: block; border-bottom: 1px dotted #cc6;}
+td#usermenu a:hover {color: #660;}
+td#usermenu a.menuTop {}
+td#usermenu a.highlight {background-color: #cc6;}
+
+.outer {border: 2px solid #cc6; background-color: #ffffff;}
+.outer td{padding: 5px;}
+.head {background-color: #993; color: #fff;}
+.even {background-color: #cc6;}
+.odd {background-color: #fff; border-right: 1px solid #cc6; border-bottom: 1px solid #cc6;}
+.foot {background-color: #993; color: #fff;}
+tr.even td {background-color: #cc6;}
+tr.odd td {background-color: #fff;}
+
+div.errorMsg {background-color: #ffffff; text-align: center; border: 1px solid #000; font-weight: bold; padding: 10px;}
+div.confirmMsg {background-color: #ffffff; color: #000000; text-align: center; border: 1px solid #000; font-weight: bold; padding: 10px;}
+div.resultMsg {background-color : #ffffff; color: #000000; text-align: center; borderp: 1px solid #000; font-weight: bold; padding: 10px;}
+
+div.xoopsCode {background: #FFFFFF; border: 1px inset #000; padding: 0px 6px 6px 6px;}
+div.xoopsQuote {background: #FFFFFF; border: 1px inset #000; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {color: #000000; font-weight:bold; border: 1px solid #000; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #000; font-weight:bold;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-weight:bold;}
+.comUserRankImg {border: 0px;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal;}
+.comDateCaption {font-weight: bold; font-style: normal;}
